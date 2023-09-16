@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Welcome, To The Game Of TicTacToe </h1>
+        <div class="game-box">
+            <div class="choice-container">
+             <div >
+                   select Level 
+              <div class="select">   
+             <input type="radio" id="beginner">
+             <label for="beginner">Beginner</label>
+               </div>  
+               
+
+               <div class="select">
+             <input type="radio" id="mid-level">
+             <label for="mid-level">mid-level</label>
+              </div>  
+
+               <div class="select">
+             <input type="radio" id="top-level">
+             <label for="top-level">top-level</label>
+               </div> 
+               </div> 
+            </div>
+            <div class="game-board">
+                <div class="player-turn-display">
+                    Computer's Turn
+                </div>
+                <div class="main-board">
+                    <div cellId='0'  class="cells"></div>
+                    <div cellId='1'  class="cells"></div>
+                    <div cellId='2'  class="cells"></div>
+                    <div cellId='3'  class="cells"></div>
+                    <div cellId='4'  class="cells"></div>
+                    <div cellId='5'  class="cells"></div>
+                    <div cellId='6'  class="cells"></div>
+                    <div cellId='7'  class="cells"></div>
+                    <div cellId='8'  class="cells"></div>
+                </div>
+                <div class="display-win-board">
+                     no winner yet
+                </div>
+                <button id="restart-btn">Start</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
